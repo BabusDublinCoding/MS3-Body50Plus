@@ -11,9 +11,11 @@ The live website can be found [here]()
 
 
 **Overview**
-As we age, every decade a man will lose ten pounds of muscle. They begin to shrink and lose mass. The number and size of muscle fibres also decrease. Handgrip strength drops, making it more difficult to do simple tasks like opening a jar. 
-The heart muscle becomes less able to propel large quantities of blood quickly to the body. We tire more quickly and take longer to recover. The body's metabolic rate slows down, making it a lot easier to put on body fat. The mineral content of bones falls, so that bones become less dense and more fragile.
+
+As we age, every decade a man will lose ten pounds of muscle. They begin to shrink and lose mass. The number and size of muscle fibres also decrease. Handgrip strength drops, making it more difficult to do simple tasks like opening a jar. The heart muscle becomes less able to propel large quantities of blood quickly to the body. We tire more quickly and take longer to recover. The body's metabolic rate slows down, making it a lot easier to put on body fat. The mineral content of bones falls, so that bones become less dense and more fragile.
+
 Build a Better Body after 50 gives users an opportunity to access information on resistance exercises that are relevant to person who is over 50 and who is looking to build and maintain muscle in order to create a strong healthy body as they age.
+
 The website design is to be a simple and easy to use. It is primarily targeted towards an audience that has little experience of exercise or building muscle. It is free to use and publicly available. The user will need to sign up as a member in order to view and contribute to the pool of exercises.
 
 
@@ -30,6 +32,7 @@ The website design is to be a simple and easy to use. It is primarily targeted t
 - I would like to easily register
 - I want to have the ability to find their social media links 
 - I would like to be able to add my exercises
+
 **Existing User**
 - I want to be able to sign in and out easily
 - I would like to be able to delete my account
@@ -75,6 +78,9 @@ For the audience I want to present a fun and enjoyable app that is easy to under
 *Design*
 
 **Colour Scheme**
+
+Colours associated with exercise related websites tend to contain strong dark colours such as black contrasted with light greens and shades of white. There are often warmer colours added sparingly to add a sense sophistication. I have chosen a palette which reflects this, so the user feels a certain comfortable familiarity. 
+
 https://coolors.co/fcefef-416788-f7b32b-47e5bc-131112
  
 **Typography**
