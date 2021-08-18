@@ -1,104 +1,127 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# MS3-Build-A-Better-Body-After-50
 
-Welcome USER_NAME,
+** Build-A-Better-Body-After-50**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+Backend Development Milestone Project- Code Institute.
 
-## Gitpod Reminders
+The live website can be found [here]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+![All Devices Image](wireframes/sitealldevices.png)
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+**Overview**
+As we age, every decade a man will lose ten pounds of muscle. They begin to shrink and lose mass. The number and size of muscle fibres also decrease. Handgrip strength drops, making it more difficult to do simple tasks like opening a jar. 
+The heart muscle becomes less able to propel large quantities of blood quickly to the body. We tire more quickly and take longer to recover. The body's metabolic rate slows down, making it a lot easier to put on body fat. The mineral content of bones falls, so that bones become less dense and more fragile.
+Build a Better Body after 50 gives users an opportunity to access information on resistance exercises that are relevant to person who is over 50 and who is looking to build and maintain muscle in order to create a strong healthy body as they age.
+The website design is to be a simple and easy to use. It is primarily targeted towards an audience that has little experience of exercise or building muscle. It is free to use and publicly available. The user will need to sign up as a member in order to view and contribute to the pool of exercises.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+**Features**
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## User Experience (UX)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ ## UX Design
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+**Scope**
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+For the audience I want to present a fun and enjoyable app that is easy to understand and can be accessed on mobile devices, laptops and desktops. If they find the content useful they might tell their friends.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+**Structure**
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+**Skeleton**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+*[Wireframes](https://github.com/BabusDublinCoding/MS2-And-The-Award-Goes-To/tree/master/wireframes)*
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- The wireframes were created using Balsamic, a popular wireframing tool, which Code Institute student can avail of as a fully licenced product.
+- This was done during the early stages of the project and demonstrates the structure of the website on different devices including mobile, tablet and desktop.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**Surface**
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+*Design*
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+**Colour Scheme**
+https://coolors.co/fcefef-416788-f7b32b-47e5bc-131112
+ 
+**Typography**
 
-------
+**Icons**
 
-## FAQ about the uptime script
+- Icons are from the Font Awesome library
 
-**Why have you added this script?**
+## Features
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+**Existing**
 
-**How will this affect me?**
+**Features to implement in the future:**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Technologies Used
 
-**So….?**
+During the development and testing of the website:
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- **Languages**
 
-**Can I opt out?**
+   - [HTML5](https://en.wikipedia.org/wiki/HTML): Used to structure the page
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+   - [CSS3](https://en.wikipedia.org/wiki/CSS): Used to style the different elements on the page
+   
+   - [JavaScript](https://en.wikipedia.org/wiki/JavaScript): Used to allow the game to produce relevant responses dependent on users' actions
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- **Frameworks and libraries**
+  - [Materialize]( https://materializecss.com/): website framework with html, CSS and JavaScript.
+  - [Font Awesome](https://fontawesome.com/): Used for the social media icons on the website
 
-**Anything more?**
+- **Media & wireframes**
+  - [Balsamiq](https://balsamiq.com/wireframes/): To design the wireframes
+  - [Am I Responsive](http://ami.responsivedesign.is/#): Image of site all devices
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- **Workspaces & repository hosting**
+  - [Gitpod](https://www.gitpod.io/): As a local repository to develop the code
+  - [Visual Studio Code](https://code.visualstudio.com/): As a local repository to develop the code
+  - [Git](https://git-scm.com/): For version control from gitpod to save commits and push code onto GitHub
+  - [GitHub](https://github.com/): To save the code
+  - [MongoDB]( https://www.mongodb.com/):  used as the database for the site
+  - **Testing**
+  - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools): Google inspect was used examine and test responsiveness
+  - [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit): For additional mobile testing
+  - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse): Google lighthouse was used to assess performance of the site
+  - [W3C HTML Validator](https://validator.w3.org/): To check there's no error in the HTML code
+  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): To check there's no error in the CSS code
+  - [JavaScript Code Checker](https://jshint.com/) To check there's no errorJavaScript code
 
----
+- **Deployment**
+  - [Heroku]( https://www.heroku.com/): To deploy the live site
 
-Happy coding!
+
+## Testing
+
+## Deployment
+
+## Credits
+
+**Images**
+
+
+**Content**
+- All wording content was written by the developer
+
+**Media**
+All images sourced as freely-usable images and free stock photos from the websites below:
+
+## Acknowledgements
+- My mentor Narender Singh for his time, patience and motivation
+- My girlfriend Giovanna for her constructive criticism, understanding and encouragement 
+- Finally, as always the slack community and the [Code Institute]( https://codeinstitute.net/) tutors
+
