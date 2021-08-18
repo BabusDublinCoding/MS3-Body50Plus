@@ -1,8 +1,8 @@
 # MS3-Build-A-Better-Body-After-50
 
-** Build-A-Better-Body-After-50**
+**Build-A-Better-Body-After-50**
 
-Backend Development Milestone Project- Code Institute.
+Backend Development Milestone Project - Code Institute.
 
 The live website can be found [here]()
 
@@ -23,6 +23,30 @@ The website design is to be a simple and easy to use. It is primarily targeted t
 
 ## User Experience (UX)
 
+**New User**
+- I would like to find out what the site is about
+- I would like to see if the site is for me without registering
+- I want to easily navigate through the site to find content
+- I would like to easily register
+- I want to have the ability to find their social media links 
+- I would like to be able to add my exercises
+**Existing User**
+- I want to be able to sign in and out easily
+- I would like to be able to delete my account
+- I would like to be able to add/edit/delete comments to my own exercises
+- I would like to be able to reset my password
+- I want to have the ability to Create, Read, Update and Delete my exercises
+
+**All Users**
+- I would like to be able to contact Build a Body after 50
+- I would like to be able to add/edit/delete exercise information
+- I would like to be able to add/edit/delete my information
+
+**Site Owner**
+- I would like to present a clean, simple website free of ‘clutter’, which is visually appealing
+- I would like easy navigation between pages
+- I would like to get user feedback when I take actions on the site
+- I would like to promote exercise to all, particularly the target audience 
 
 
 
