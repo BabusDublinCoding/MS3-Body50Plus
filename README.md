@@ -4,7 +4,7 @@
 
 Backend Development Milestone Project - Code Institute.
 
-The live website can be found [here]()
+The live website can be found []()
 
 
 ![All Devices Image](wireframes/sitealldevices.png)
@@ -56,6 +56,15 @@ The website design is to be a simple and easy to use. It is primarily targeted t
 
 
  ## UX Design
+ 
+**Strategy**
+
+*User Needs* - User to access the site on mobile, tablet and then the desktop. The information is to be presented in a concise manner.
+
+*Technical Aptitudes* - The main technologies used in the project will be HTML, CSS, Materialize, Python+Flask and MongoDB
+
+*Business Vision* - The project is not a commercial venture but simply to inform and educate the user.
+
 
 **Scope**
 
@@ -110,8 +119,9 @@ During the development and testing of the website:
    - [JavaScript](https://en.wikipedia.org/wiki/JavaScript): Used to allow the game to produce relevant responses dependent on users' actions
 
 - **Frameworks and libraries**
-  - [Materialize]( https://materializecss.com/): website framework with html, CSS and JavaScript.
+  - [Materialize]( https://materializecss.com/): website framework with html, CSS and JavaScript
   - [Font Awesome](https://fontawesome.com/): Used for the social media icons on the website
+  - [Flask](https://flask.palletsprojects.com/en/2.0.x/): framework for the back end application to connect database to front end web page
 
 - **Media & wireframes**
   - [Balsamiq](https://balsamiq.com/wireframes/): To design the wireframes
@@ -123,7 +133,7 @@ During the development and testing of the website:
   - [Git](https://git-scm.com/): For version control from gitpod to save commits and push code onto GitHub
   - [GitHub](https://github.com/): To save the code
   - [MongoDB]( https://www.mongodb.com/):  used as the database for the site
-  - **Testing**
+- **Testing**
   - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools): Google inspect was used examine and test responsiveness
   - [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit): For additional mobile testing
   - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse): Google lighthouse was used to assess performance of the site
