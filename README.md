@@ -149,6 +149,69 @@ During the development and testing of the website:
 
 ## Deployment
 
+
+Using [Gitpod](https://www.gitpod.io/), I created Build A Better Body After 50 web application. Then, using Git commits I pushed the project to my GitHub repository. [Heroku](https://www.heroku.com/) was used with the deployment of the live website. Connecting Gitpod / GitHub to Heroku meant that any git commits changes automatically updated the live site.
+
+**Running Build A Better Body After 50 Online Locally**
+
+**GitHub**
+
+How to clone Build A Better Body After 50 from GitHub
+
+Please note that this project will only run locally if an env.py file is set up containing the IP, PORT, SECRET\_KEY, MONGO-URI and MONGO\_DBNAME. For security reasons these details will not be shared on this documentation. The env.py file should be added to your gitignore file.
+
+1. Navigate to BabusDublinCoding/MS3-Build-A-Better-Body-After-50
+2. Click on the green Code button
+3. Select the code dropdown button beside the Gitpod button
+4. Copy the URL listed.
+5. Start up your IDE and navigate to the file location.
+6. To clone, copy this code and input it into your terminal:
+
+[https://github.com/BabusDublinCoding/MS3-Build-A-Better-Body-After-50](https://github.com/BabusDublinCoding/MS3-Build-A-Better-Body-After-50)
+
+**Heroku**
+
+**Deployment to Heroku**
+
+**Create the application**
+
+\* Login in to heroku.com
+
+\* Click on New, and Create new app
+
+\* Enter your app name
+
+\* Select the region that is closest to you
+
+**Connect to you GitHub repository**
+
+\* Click Deploy and select GitHub - Connect to GitHub
+
+\* Enter your repository name and search
+
+\* Click Connect on the correct repository
+
+**Set Your Environment Variables**
+
+Go to settings, and within Config Vars enter the following
+
+\* IP: 0.0.0.0
+
+\* PORT: 5000
+
+\* MONGO\_DBNAME: (enter the database name that you are connecting to)
+
+\* MONGO\_URI: (enter your mongo uri. This is found by going to clusters\&gt; connect\&gt; connect to your application and entering your passwords and dbname within the link)
+
+\* SECRET\_KEY: (This is a secret password that must be very secure.)
+
+**Enable Automatic Deploys**
+
+\* Go to the deploy tab
+
+\* Within the automatic deploys section, choose the branch that you want to deploy from and select Enable Automatic Deploys.
+
+
 ## Credits
 
 **Images**
