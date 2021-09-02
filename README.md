@@ -1,6 +1,6 @@
-# MS3-Build-A-Better-Body-After-50
+# MS3-Body50+
 
-**Build-A-Better-Body-After-50**
+**Body50+**
 
 Backend Development Milestone Project - Code Institute.
 
@@ -14,7 +14,7 @@ The live website can be found []()
 
 As we age, every decade a man will lose ten pounds of muscle. They begin to shrink and lose mass. The number and size of muscle fibres also decrease. Handgrip strength drops, making it more difficult to do simple tasks like opening a jar. The heart muscle becomes less able to propel large quantities of blood quickly to the body. We tire more quickly and take longer to recover. The body's metabolic rate slows down, making it a lot easier to put on body fat. The mineral content of bones falls, so that bones become less dense and more fragile.
 
-Build a Better Body after 50 gives users an opportunity to access information on resistance exercises that are relevant to person who is over 50 and who is looking to build and maintain muscle in order to create a strong healthy body as they age.
+Body50+ gives users an opportunity to access information on resistance exercises that are relevant to person who is over 50 and who is looking to build and maintain muscle in order to create a strong healthy body as they age.
 
 The website design is to be a simple and easy to use. It is primarily targeted towards an audience that has little experience of exercise or building muscle. It is free to use and publicly available. The user will need to sign up as a member in order to view and contribute to the pool of exercises.
 
@@ -41,7 +41,7 @@ The website design is to be a simple and easy to use. It is primarily targeted t
 - I want to have the ability to Create, Read, Update and Delete my exercises
 
 **All Users**
-- I would like to be able to contact Build a Body after 50
+- I would like to be able to contact Body50+
 - I would like to be able to add/edit/delete exercise information
 - I would like to be able to add/edit/delete my information
 
@@ -150,24 +150,24 @@ During the development and testing of the website:
 ## Deployment
 
 
-Using [Gitpod](https://www.gitpod.io/), I created Build A Better Body After 50 web application. Then, using Git commits I pushed the project to my GitHub repository. [Heroku](https://www.heroku.com/) was used with the deployment of the live website. Connecting Gitpod / GitHub to Heroku meant that any git commits changes automatically updated the live site.
+Using [Gitpod](https://www.gitpod.io/), I created Body50+ web application. Then, using Git commits I pushed the project to my GitHub repository. [Heroku](https://www.heroku.com/) was used with the deployment of the live website. Connecting Gitpod / GitHub to Heroku meant that any git commits changes automatically updated the live site.
 
-**Running Build A Better Body After 50 Online Locally**
+**Running Body50+ Online Locally**
 
 **GitHub**
 
-How to clone Build A Better Body After 50 from GitHub
+How to clone Body50+ from GitHub
 
 Please note that this project will only run locally if an env.py file is set up containing the IP, PORT, SECRET\_KEY, MONGO-URI and MONGO\_DBNAME. For security reasons these details will not be shared on this documentation. The env.py file should be added to your gitignore file.
 
-1. Navigate to BabusDublinCoding/MS3-Build-A-Better-Body-After-50
+1. Navigate to BabusDublinCoding/MS3-Body50+
 2. Click on the green Code button
 3. Select the code dropdown button beside the Gitpod button
 4. Copy the URL listed.
 5. Start up your IDE and navigate to the file location.
 6. To clone, copy this code and input it into your terminal:
 
-[https://github.com/BabusDublinCoding/MS3-Build-A-Better-Body-After-50](https://github.com/BabusDublinCoding/MS3-Build-A-Better-Body-After-50)
+[https://github.com/BabusDublinCoding/MS3-Body50](https://github.com/BabusDublinCoding/MS3-Body50+
 
 **Heroku**
 
