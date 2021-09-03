@@ -25,6 +25,11 @@ def get_exercises():
     return render_template("exercises.html", exercises=exercises)
 
 
+@app.route("/register", methods=["GET", "POST"])
+def register():
+    return render_template("register.html")
+
+
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
