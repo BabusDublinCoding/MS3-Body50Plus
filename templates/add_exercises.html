@@ -7,33 +7,45 @@
     <form class="col s12" method="POST" action="">
         <div class="row">
             <div class="input-field col s12">
+                <i class="fas fa-folder-open prefix light-blue-text text-darken-4"></i>
+                <select id="category_name" name="category_name" class="validate" required>
+                    <option value="" disabled selected>Choose Category</option>
+                    {% for category in categories %}  
+                    <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+                    {% endfor %}          
+                </select>
+                <label for="category_name">Exercise Category</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
                 <i class="fas fa-user-circle prefix light-blue-text text-darken-4"></i>
-                <input id="exercise_name" name="exercise_name" minlength="5" maxlength="50"
-                    type="text" class="validate" required>
+                <input id="exercise_name" name="exercise_name" minlength="5" maxlength="50" type="text" class="validate"
+                    required>
                 <label for="exercise_name">Exercise Name</label>
-            </div> 
-         </div>
-         <div class="row">
+            </div>
+        </div>
+        <div class="row">
             <div class="input-field col s12">
                 <i class="fas fa-align-left prefix light-green-text text-darken-4"></i>
-                <textarea id="exercise_description" name="exercise_description" minlength="5"
-                    maxlength="200" class="materialize-textarea validate" required></textarea>
+                <textarea id="exercise_description" name="exercise_description" minlength="5" maxlength="200"
+                    class="materialize-textarea validate" required></textarea>
                 <label for="exercise_description">Exercise Description</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12">
                 <i class="fas fa-align-left prefix light-green-text text-darken-4"></i>
-                <textarea id="sets_description" name="sets_description" minlength="1"
-                    maxlength="200" class="materialize-textarea validate" required></textarea>
+                <textarea id="sets_description" name="sets_description" minlength="1" maxlength="200"
+                    class="materialize-textarea validate" required></textarea>
                 <label for="sets_description">Number of Sets</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12">
                 <i class="fas fa-align-left prefix light-green-text text-darken-4"></i>
-                <textarea id="reps_description" name="rep_description" minlength="1"
-                    maxlength="200" class="materialize-textarea validate" required></textarea>
+                <textarea id="reps_description" name="rep_description" minlength="1" maxlength="200"
+                    class="materialize-textarea validate" required></textarea>
                 <label for="reps_description">Number of Reps</label>
             </div>
         </div>
