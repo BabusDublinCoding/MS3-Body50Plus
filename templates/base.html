@@ -25,7 +25,9 @@
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="{{ url_for('get_exercises') }}">Home</a></li>
+                    {% if 'user' in session %}
                     <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
+                    {% endif %}
                     <li><a href="#">New Exercise </a></li>
                     <li><a href="#">Manage Categories</a></li>
                     <li><a href="{{ url_for('logout') }}">Log Out</a></li>
@@ -42,7 +44,9 @@
                 <h4 class="center-align light-blue-text text-darken 4">Body50+</h4>
             </li>
             <li><a href="{{ url_for('get_exercises') }}">Home</a></li>
+            {% if 'user' in session %}
             <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
+            {% endif %}
             <li><a href="#">New Exercise </a></li>
             <li><a href="#">Manage Categories</a></li>
             <li><a href="{{ url_for('logout') }}">Log Out</a></li>

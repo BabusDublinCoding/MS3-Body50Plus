@@ -21,7 +21,8 @@ mongo = PyMongo(app)
 @app.route("/")
 @app.route("/get_exercises")
 def get_exercises():
-    exercises = mongo.db.exercises.find()
+    exercises = list(mongo.db.exercises.find({}))
+    print(list(exercises))
     return render_template("exercises.html", exercises=exercises)
 
 
