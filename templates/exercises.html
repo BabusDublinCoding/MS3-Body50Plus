@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
 
+<h3 class="light-green-text text-darken-4 center-align">All Exercises</h3>
+
 {% for exercise in exercises %}<br>
 {{ exercise.category_name }}<br>
 {{ exercise.exercise_name }}<br>
@@ -8,6 +10,7 @@
 {{ exercise.sets }}<br>
 {{ exercise.reps }}<br>
 
+<h3 class="light-green-text text-darken-4 center-align">Add Exercises</h3>
 
 <ul class="collapsible">
 
