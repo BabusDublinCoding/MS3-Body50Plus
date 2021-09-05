@@ -214,14 +214,15 @@ Go to settings, and within Config Vars enter the following
 
 ## Credits
 
-**Images**
+This project was heavily influenced by the backend development mini project and the plan was to use it as a basis and adapt it to suit my original idea. Unfortunately I was not able to complete it in the way that I would have like, hence it looks very simlar. I will look to make significant changes when I resubmit it. 
+
 
 
 **Content**
 - All wording content was written by the developer
 
-**Media**
-All images sourced as freely-usable images and free stock photos from the websites below:
+
+
 
 ## Acknowledgements
 - My mentor Narender Singh for his time, patience and motivation
